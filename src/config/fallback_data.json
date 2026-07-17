@@ -1,0 +1,341 @@
+{
+  "profile": {
+    "name": "Mohamed Aly Maher",
+    "title": "Full-Stack Developer & AI Integrator",
+    "bio": "Results-driven Full-Stack Developer & AI Integrator with a rigorous analytical foundation in mathematics and advanced algorithms. Proficient in architecting scalable web infrastructures using PHP/Laravel and building highly responsive, interactive user interfaces with React/JavaScript. Adept at bridging the gap between web development and data intelligence through Python applications, data analysis, and AI model training. Bilingual (Arabic/English) with an academic and practical approach to solving complex architectural problems, optimizing system performance, and delivering high-value technical solutions.",
+    "avatar_url": "/src/assets/profile_avatar.png",
+    "email": "mohamedalix546@gmail.com",
+    "github_url": "https://github.com/m0hvmedali",
+    "whatsapp_url": "https://wa.me/201281320192",
+    "resume_url": "#",
+    "location": "Egypt",
+    "status": "Architecting scalable web infrastructures & AI systems"
+  },
+  "skills": [
+    {
+      "name": "PHP & Laravel",
+      "group_name": "Backend Engineering",
+      "proficiency": 95,
+      "color": "#777bb4",
+      "icon": "fa-brands fa-laravel",
+      "years_of_experience": 1
+    },
+    {
+      "name": "MySQL & Database Optimization",
+      "group_name": "Backend Engineering",
+      "proficiency": 92,
+      "color": "#00758f",
+      "icon": "fa-solid fa-database",
+      "years_of_experience": 1
+    },
+    {
+      "name": "JavaScript (ES6+) & React.js",
+      "group_name": "Frontend Engineering",
+      "proficiency": 90,
+      "color": "#61dafb",
+      "icon": "fa-brands fa-react",
+      "years_of_experience": 1
+    },
+    {
+      "name": "HTML5 & CSS3 / Tailwind",
+      "group_name": "Frontend Engineering",
+      "proficiency": 95,
+      "color": "#38bdf8",
+      "icon": "fa-brands fa-html5",
+      "years_of_experience": 2.5
+    },
+    {
+      "name": "Python Scripting",
+      "group_name": "Systems & Scripting",
+      "proficiency": 88,
+      "color": "#3776ab",
+      "icon": "fa-brands fa-python",
+      "years_of_experience": 1
+    },
+    {
+      "name": "C++ Programming",
+      "group_name": "Systems & Scripting",
+      "proficiency": 82,
+      "color": "#00599c",
+      "icon": "fa-solid fa-code",
+      "years_of_experience": 1.5
+    },
+    {
+      "name": "Data Analysis & Statistical Modeling",
+      "group_name": "Data Science",
+      "proficiency": 85,
+      "color": "#10b981",
+      "icon": "fa-solid fa-chart-line",
+      "years_of_experience": 3.0
+    },
+    {
+      "name": "Algorithm Optimization",
+      "group_name": "Data Science",
+      "proficiency": 90,
+      "color": "#059669",
+      "icon": "fa-solid fa-gears",
+      "years_of_experience": 3.0
+    },
+    {
+      "name": "AI Model Training & Fine-Tuning",
+      "group_name": "Artificial Intelligence",
+      "proficiency": 80,
+      "color": "#8b5cf6",
+      "icon": "fa-solid fa-brain",
+      "years_of_experience": 0.5
+    },
+    {
+      "name": "Advanced Math & Complexity Analysis",
+      "group_name": "Mathematical Foundations",
+      "proficiency": 95,
+      "color": "#ec4899",
+      "icon": "fa-solid fa-square-root-variable",
+      "years_of_experience": 3.0
+    },
+    {
+      "name": "CCNA Network Infrastructure",
+      "group_name": "Networking & Tools",
+      "proficiency": 88,
+      "color": "#00b4d8",
+      "icon": "fa-solid fa-network-wired",
+      "years_of_experience": 3.0
+    },
+    {
+      "name": "Git & GitHub",
+      "group_name": "Networking & Tools",
+      "proficiency": 90,
+      "color": "#f05032",
+      "icon": "fa-brands fa-github",
+      "years_of_experience": 3.0
+    }
+  ],
+  "projects": [
+    {
+      "title": "Math Hub — AI-Powered Student Productivity Platform",
+      "slug": "math-hub-ai-student-platform",
+      "short_description": "A full-featured study companion platform blending AI analysis, gamification, focus timers, and a radar-search engine — built as a calm, structured psychological companion.",
+      "full_description": "Math Hub is a comprehensive student productivity web application built to transform the learning experience. The platform integrates an AI companion that provides daily performance analysis and personalized study plans. Students can organize subjects (Math, Physics, Chemistry, Languages), track their progress through an interactive Knowledge Universe map where subjects become planets and lessons become moons, and follow a gamified Odyssey journey that frames studying as a voyage toward independence.\n\nThe focus lab features an advanced Pomodoro system (50‑min work / 10‑min break) with dynamic color themes, ambient soundscapes (rain, café, Lo‑Fi) and a Neural Rank leveling system. A Radar Search engine simultaneously queries the in‑app database, the web, Google Drive, and YouTube. Additional features include Spotify integration for automatic playlist switching between study and break modes, daily Hadith/wisdom reminders, and a compassionate AI Companion that offers instant support.\n\nThe platform is 100% free, cloud‑synced via Google, and features a modern dynamic color system.",
+      
+      "gallery": [
+        "/src/assets/mathhub_gallery_1.png",
+        "/src/assets/mathhub_gallery_2.png"
+      ],
+      "status": "Live",
+      "featured": false,
+      "github_url": "https://github.com/m0hvmedali/math-hub",
+      "live_url": "https://math-hub-eta.vercel.app/",
+      "technologies": ["JavaScript", "HTML5", "CSS3", "AI Integration", "Spotify API", "Vercel"],
+      "year": 2026
+    },
+    {
+      "title": "Mental Journey Tracker — Psychological Wellness Companion",
+      "slug": "mental-journey-tracker",
+      "short_description": "A full-featured mental wellness web app combining an interactive emotion wheel, CBT/DBT learning modules, breathing labs, and a gratitude wall — built as a calm, structured psychological companion.",
+      "full_description": "Mental Journey Tracker (also known as Growth Tree) is a comprehensive psychological self-help platform designed to guide users through emotional awareness and mental resilience. At its core is a three-level interactive Emotion Wheel that lets users pinpoint feelings from broad categories down to precise sub-emotions, combined with an intensity slider and a situation-linking journal for daily diary entries.\n\nThe Mind Skills section delivers bite-sized lessons on CBT and DBT techniques, an Emotion Dictionary, cognitive reappraisal tools, and educational content distinguishing healthy emotional regulation from suppression. The Practice Lab houses guided breathing exercises (4-4-4 technique), five-senses mindfulness, safe-place visualization, progressive muscle relaxation, and compassionate self-talk sessions.\n\nA Gratitude Wall lets users capture positive memories and milestones, while a journey-tracking dashboard displays total session time and completed exercises. The platform also features a dedicated section introducing the supervising psychologist (Eng. Aqili), her qualifications, and her specializations in anxiety, trauma, and OCD treatment. All of this is delivered through a serene, organized interface focused on accessibility and calm UX.",
+      "cover_image": "/src/assets/mentaljt_cover.png",
+      "gallery": [
+        "/src/assets/mentaljt_gallery_1.png"
+      ],
+      "status": "Live",
+      "featured": false,
+      "github_url": "https://github.com/m0hvmedali/mental-journey-tracker",
+      "live_url": "https://mental-journey-tracker.vercel.app/",
+      "technologies": ["JavaScript", "HTML5", "CSS3", "CBT/DBT", "Vercel"],
+      "year": 2026
+    }
+  ],
+  "experience": [
+    {
+      "company": "Enterprise Software Solutions",
+      "role": "Full-Stack Developer & AI Integrator",
+      "description": "Architecting scalable Laravel APIs and integrating custom data intelligence models. Optimized MySQL queries across database clusters to lower dashboard load times. Developed Python applications to parse raw metrics and trigger statistical calculations.",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "is_current": true,
+      "type": "",
+      "technologies": [
+        "Laravel",
+        "PHP",
+        "React.js",
+        "Python",
+        "MySQL"
+      ],
+      "location": "Egypt"
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "degree": "Bachelor of Science",
+      "field_of_study": "Computer Science & Mathematics",
+      "start_date": "2018-09-01",
+      "end_date": "2022-06-30",
+      "description": "Rigorous academic specialization in advanced mathematics, discrete systems, algorithmic logic, and computing complexity."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "CCNAv7: Enterprise Networking, Security, and Automation",
+      "issuer": "Cisco Networking Academy",
+      "issue_date": "2023-10-10",
+      "expires_at": null,
+      "credential_id": "",
+      "credential_url": "",
+      "image_url": "/src/assets/certificates/ccna_enterprise.png"
+    },
+    {
+      "title": "CCNAv7: Switching, Routing, and Wireless Essentials",
+      "issuer": "Cisco Networking Academy",
+      "issue_date": "2023-09-30",
+      "expires_at": null,
+      "credential_id": "875f4c11-0bfd-4fde-a7a1-354248114f23",
+      "credential_url": "",
+      "image_url": "/src/assets/certificates/ccna_switching.png"
+    },
+    {
+      "title": "CCNAv7: Introduction to Networks",
+      "issuer": "Cisco Networking Academy",
+      "issue_date": "2023-09-30",
+      "expires_at": null,
+      "credential_id": "",
+      "credential_url": "",
+      "image_url": "/src/assets/certificates/ccna_intro.png"
+    },
+    {
+      "title": "Advanced PHP & MySQL Web Development (60 Hours)",
+      "issuer": "New Horizons Computer Learning Centers (Accredited by Intrast)",
+      "issue_date": "2025-07-20",
+      "expires_at": null,
+      "credential_id": "",
+      "credential_url": "",
+      "image_url": "/src/assets/certificates/php_mysql_advanced.png"
+    },
+    {
+      "title": "MySQL Fundamentals (24 Hours)",
+      "issuer": "New Horizons Computer Learning Centers (Accredited by Intrast)",
+      "issue_date": "2025-05-15",
+      "expires_at": null,
+      "credential_id": "",
+      "credential_url": "",
+      "image_url": "/src/assets/certificates/mysql_fundamentals.png"
+    }
+  ],
+  "learnings": [
+    {
+      "title": "Database Normalization & Query Tuning",
+      "description": "Mastered relational query plan analysis in MySQL to optimize joins, index policies, and reduce resource locks in heavy PHP architectures.",
+      "source": "New Horizons",
+      "learned_year": 2025
+    },
+    {
+      "title": "Enterprise Networking & Security Configurations",
+      "description": "Studied IP subnet allocations, routing tables, and access control list (ACL) rules to secure host nodes across topologies.",
+      "source": "Cisco Academy",
+      "learned_year": 2023
+    },
+    {
+      "title": "AI Fine-Tuning & Weights Normalization",
+      "description": "Reviewed neural network loss adjustments, token preprocessing math, and dataset preparation schemas for target domain models.",
+      "source": "Advanced Course",
+      "learned_year": 2026
+    },
+    {
+      "title": "Algorithmic Proofs & Discrete Logic",
+      "description": "Deepened computational studies regarding big-O asymptotic limits, graph traverse complexity limits, and induction proofs.",
+      "source": "Academic Curricula",
+      "learned_year": 2022
+    }
+  ],
+  "blog": [
+    {
+      "title": "تحسين زمن التحميل الأولي وتحسين أداء صفحات الويب (Initial Load Time Optimization)",
+      "slug": "optimizing-initial-load-time-performance",
+      "summary": "كيفية تسريع تحميل تطبيقات الويب التفاعلية لتقليل معدل الارتداد (Bounce Rate) ليكون أقل من ثانية واحدة باستخدام أحدث تقنيات تحسين الأداء.",
+      "cover_image": "/src/assets/load_optimization.png",
+      "tags": ["Optimization", "Frontend", "Performance"],
+      "published_at": "2026-07-01T10:00:00Z",
+      "content": "### المشكلة للمستخدم\nعندما يفتح المستخدم الموقع وينتظر لأكثر من 3 ثوانٍ أمام شاشة بيضاء فارغة، يزداد احتمال مغادرته للموقع فوراً (ارتداد المستخدمين). هذا التأخر يؤثر سلباً على تجربة المستخدم وعلى أرشفة محركات البحث (SEO).\n\n### منهجيتنا في الحل وهندسة الأداء\nللتغلب على هذه المشكلة، قمنا بتطبيق استراتيجيات صارمة لتحسين الأداء تشمل:\n* **تقسيم الكود (Code Splitting):** تفكيك حزم جافا سكريبت الكبيرة إلى أجزاء أصغر وتحميلها بشكل ديناميكي حسب حاجة الصفحة فقط، مما يقلل من حجم الملفات المحملة في البداية.\n* **ضغط وتقليل الحجم (Minification & Gzip):** تصغير ملفات HTML و CSS و JavaScript وإزالة الفراغات والتعليقات غير الضرورية.\n* **تحسين الصور والوسائط:** تحويل جميع الصور إلى صيغ حديثة وعالية الكفاءة مثل **WebP** و **AVIF** مع ضغطها دون فقدان الجودة، وتفعيل التحميل الكسول (Lazy Loading).\n* **النتيجة:** انخفاض زمن التحميل الفعلي (FCP) ليكون أقل من ثانية واحدة، مما أدى إلى تجربة تصفح فائقة السلاسة."
+    },
+    {
+      "title": "إدارة حالة التطبيق وضمان استمرارية البيانات عند ضعف الشبكة (State Loss & Resilience)",
+      "slug": "state-management-and-offline-resilience",
+      "summary": "بناء نظام حماية لحفظ مسودات المستخدم ومدخلاته بشكل لحظي وتوفير دعم العمل دون اتصال (Offline Support) لمنع فقدان البيانات.",
+      "cover_image": "/src/assets/state_resilience.png",
+      "tags": ["State Management", "UX", "Offline Support"],
+      "published_at": "2026-07-02T11:00:00Z",
+      "content": "### المشكلة للمستخدم\nتخيل أن يقوم المستخدم بملء نموذج طويل أو إضافة منتجات إلى عربة التسوق، ثم تنقطع الشبكة فجأة أو يضغط على زر التحديث (Refresh) بالخطأ، ليفقد كل بياناته ويبدأ من جديد. هذا يسبب إحباطاً شديداً للمستخدم.\n\n### الحل التقني والمعماري\nقمنا بحل هذه المشكلة عبر تطبيق نظام استمرارية البيانات المتقدم:\n* **التخزين المحلي اللحظي:** استخدام **Local Storage** و **Session Storage** لحفظ مسودات المستخدم وتحديثها بشكل تلقائي مع كل نقرة أو إدخال.\n* **تكامل Service Workers:** تفعيل تقنيات التطبيقات التقدمية (PWA) لتقديم دعم كامل للعمل في وضع عدم الاتصال (Offline Support).\n* **مزامنة الخلفية (Background Sync):** عند عودة اتصال الإنترنت، يقوم التطبيق بمزامنة البيانات المخزنة محلياً مع الخادم بشكل تلقائي وصامت.\n* **النتيجة:** حماية كاملة لمدخلات المستخدم، وتصفح آمن ومستمر بغض النظر عن استقرار الشبكة."
+    },
+    {
+      "title": "هندسة التصميم المتجاوب والتطوير المتوافق مع الهواتف أولاً (Mobile-First Architecture)",
+      "slug": "responsive-mobile-first-architecture",
+      "summary": "تطبيق منهجية تصميم متوافقة مع جميع أحجام الشاشات لضمان واجهات مستخدم مريحة وجذابة دون الحاجة لتقريب الشاشة يدوياً.",
+      "cover_image": "/src/assets/mobile_responsiveness.png",
+      "tags": ["CSS", "Frontend", "Responsive Design"],
+      "published_at": "2026-07-03T12:00:00Z",
+      "content": "### المشكلة للمستخدم\nعند تصفح موقع غير متجاوب من الهاتف، تظهر الأزرار متداخلة، والنصوص بالغة الصغر، ويضطر المستخدم للتمرير يميناً ويساراً أو تكبير الشاشة يدوياً لقراءة المحتوى، مما يفسد تجربة التصفح تماماً.\n\n### منهجيتنا في التصميم والتطوير\nنلتزم بمعايير التصميم الحديثة لضمان توافقية مطلقة:\n* **منهجية الموبايل أولاً (Mobile-First Approach):** نبدأ بتصميم وتطوير الواجهات للشاشات الصغيرة ثم التدرج للأعلى، مما يضمن خفة الواجهة الأساسية وسلاستها.\n* **أنظمة التخطيط المرنة (CSS Grid & Flexbox):** بناء الهياكل البرمجية بشكل مرن يعيد ترتيب العناصر تلقائياً لتناسب أي شاشة (هاتف، جهاز لوحي، شاشة حاسوب ضخمة).\n* **تطبيق Tailwind CSS المتطور:** استخدام نقاط التوقف (Breakpoints) الذكية للتحكم بالخطوط والمساحات بشكل ديناميكي.\n* **النتيجة:** واجهات مستخدم أنيقة وجذابة تتكيف بشكل فني وتلقائي مع أي جهاز."
+    },
+    {
+      "title": "منع تجمد الواجهات وتفعيل المعالجة غير المتزامنة (Asynchronous & UI Freezing Prevention)",
+      "slug": "asynchronous-ui-freezing-prevention",
+      "summary": "استخدام الأكواد غير المتزامنة ومؤشرات التحميل الديناميكية للحفاظ على استجابة الواجهة بنسبة 100% أثناء العمليات الثقيلة.",
+      "cover_image": "/src/assets/async_processing.png",
+      "tags": ["JavaScript", "UX", "Performance"],
+      "published_at": "2026-07-04T13:00:00Z",
+      "content": "### المشكلة للمستخدم\nعند النقر على زر \"رفع ملف\" أو \"إصدار تقرير\"، يتجمد الموقع بالكامل ولا يستجيب لأي نقرة أخرى، مما يجعل المستخدم يظن أن التطبيق قد تعطل تماماً، فيقوم بالضغط تكراراً أو يغلق الصفحة.\n\n### الحل التقني والمعماري\nللحفاظ على سلاسة الواجهة وتجاوبها المطلق:\n* **البرمجة غير المتزامنة (Asynchronous Programming):** تنفيذ جميع المهام الثقيلة وجلب البيانات في الخلفية باستخدام `async/await` و Promises دون إعاقة الخيط الرئيسي للمتصفح (Main Thread).\n* **مؤشرات التحميل والهياكل العظمية (Skeleton Screens):** عرض شاشات هيكلية ذكية ومؤشرات تحميل تفاعلية تمنح المستخدم تغذية راجعة فورية بأن التطبيق يعمل بنشاط بالخلفية.\n* **النتيجة:** واجهة مستخدم مستقرة وتفاعلية بنسبة 100%، وتجربة معالجة بيانات مريحة ومفهومة."
+    },
+    {
+      "title": "معمارية المصادقة الآمنة واستدامة جلسات المستخدم (Secure Authentication & Sessions)",
+      "slug": "secure-authentication-sessions",
+      "summary": "بناء نظام مصادقة قوي يجمع بين أمان JWT وسلاسة OAuth لتمكين تسجيل الدخول بضغطة زر مع الحفاظ على سرية البيانات.",
+      "cover_image": "/src/assets/secure_auth.png",
+      "tags": ["Security", "Backend", "Authentication"],
+      "published_at": "2026-07-05T14:00:00Z",
+      "content": "### المشكلة للمستخدم\nمطالبة المستخدم بتسجيل الدخول في كل مرة يفتح فيها الموقع، أو فرض كلمات مرور بالغة التعقيد دون شرح الشروط بوضوح، يسبب تجربة تسجيل دخول معقدة ومنفرة للمستخدم.\n\n### الحل التقني والمعماري\nصممنا نظام مصادقة يوازن بدقة بين الأمن وسهولة الاستخدام:\n* **تقنيات JWT و Refresh Tokens:** استخدام الرموز الأمنية لتخزين الجلسات بشكل مشفر، وتحديثها تلقائياً للحفاظ على تسجيل دخول المستخدم لفترات طويلة بأمان تام.\n* **التسجيل بضغطة زر (OAuth 2.0):** دمج تسجيل الدخول السريع عبر حسابات موثوقة مثل Google و GitHub لتقليل الحاجة لحفظ كلمات مرور جديدة.\n* **التحقق الفوري من الشروط (Real-time Validation):** إرشاد المستخدم أثناء كتابة كلمة المرور بالشروط المطلوبة بشكل تفاعلي ومريح.\n* **النتيجة:** حماية أمنية قوية لجلسات المستخدمين مع تجربة دخول خالية من التعقيد."
+    },
+    {
+      "title": "محركات البحث الفورية وتحسين استعلامات قواعد البيانات (High-Performance Search & Indexing)",
+      "slug": "high-performance-search-indexing",
+      "summary": "تسريع عمليات البحث الفوري وتطبيق خوارزميات البحث التقريبي (Fuzzy Search) مع تقنيات Debouncing لتقليل الضغط على الخادم.",
+      "cover_image": "/src/assets/db_indexing_search.png",
+      "tags": ["Database", "Search", "Optimization"],
+      "published_at": "2026-07-06T15:00:00Z",
+      "content": "### المشكلة للمستخدم\nعند البحث عن منتج أو مقال، يستغرق محرك البحث وقتاً طويلاً جداً لعرض النتائج، أو يفشل في فهم الأخطاء الإملائية البسيطة التي يقع فيها المستخدم، مما يجعله يشعر بأن البحث بلا فائدة.\n\n### الحل التقني والمعماري\nقمنا ببناء محرك بحث فوري ذكي وعلى الأداء:\n* **فهرسة قواعد البيانات (Database Indexing):** تسريع استعلامات قواعد البيانات من خلال إنشاء فهارس مخصصة للحقول الأكثر بحثاً، مما يقلل وقت الاستجابة من مئات الملي ثانية إلى أجزاء بسيطة.\n* **البحث الفازي (Fuzzy Search):** استخدام خوارزميات ذكية تفهم نوايا المستخدم وتعرض النتائج الصحيحة حتى مع وجود أخطاء إملائية.\n* **تفعيل تقنية الـ Debouncing:** تأخير إرسال طلب البحث إلى الخادم لبضع ملي ثوانٍ حتى يتوقف المستخدم عن الكتابة، مما يمنع إرهاق السيرفر بطلبات متكررة مع كل حرف.\n* **النتيجة:** بحث فوري ذكي يستجيب في أجزاء من الثانية ويقدم نتائج دقيقة ومخصصة."
+    },
+    {
+      "title": "معالجة الأخطاء الذكية وتوجيه المستخدمين (Graceful Error Handling & Custom Routing)",
+      "slug": "graceful-error-handling-routing",
+      "summary": "تصميم نظام معالجة الأخطاء يمنع انهيار الصفحات الصامت، ويقدم تنبيهات Toast ذكية وواجهات خطأ 404 تفاعلية ترشد المستخدم.",
+      "cover_image": "/src/assets/state_resilience.png",
+      "tags": ["UX", "Routing", "Error Handling"],
+      "published_at": "2026-07-07T16:00:00Z",
+      "content": "### المشكلة للمستخدم\nعند حدوث خطأ ما في الخلفية، يتوقف الموقع صامتاً دون أي رد فعل للمستخدم، أو ينقله إلى صفحة 404 بيضاء وجافة ومحبطة، فيشعر المستخدم بأن الموقع قد تلف تماماً.\n\n### الحل التقني والمعماري\nصممنا هيكلية شاملة لإدارة وتتبع الأخطاء بشكل تفاعلي:\n* **صفحات خطأ مخصصة وتفاعلية (Custom 404 & 500):** تصميم واجهات أخطاء جذابة توضح للمستخدم المشكلة بلغة بسيطة، وتوفر أزراراً سريعة للعودة للصفحة الرئيسية أو الاتصال بالدعم.\n* **نظام إشعارات Toast فوري:** عرض تنبيهات صغيرة وذكية تخبر المستخدم بطبيعة المشكلة عند فشل الإجراءات (مثل: \"عذراً، يرجى التحقق من اتصالك بالإنترنت\").\n* **النتيجة:** طمأنة المستخدم وإرشاده في كل خطوة، ومنع حدوث أخطاء غير مفهومة أو صامتة."
+    },
+    {
+      "title": "معايير الأمان العالمية وتأمين بيانات المستخدمين (Security & Data Encryption)",
+      "slug": "security-data-encryption",
+      "summary": "تأمين معمارية التطبيق بتشفير bcrypt القوي، وتفعيل بروتوكولات HTTPS، وحماية واجهات البرمجة من ثغرات XSS و CSRF.",
+      "cover_image": "/src/assets/secure_auth.png",
+      "tags": ["Security", "Backend", "Encryption"],
+      "published_at": "2026-07-08T17:00:00Z",
+      "content": "### المشكلة للمستخدم\nأخطر ما يواجه المستخدم هو تسريب بياناته الشخصية أو سرقة حسابه نتيجة لضعف الحماية وتخزين كلمات المرور كنصوص واضحة في قواعد البيانات.\n\n### الحل التقني والمعماري\nنطبق معايير أمنية صارمة ومحدثة لحماية كافة البيانات:\n* **تشفير كلمات المرور:** استخدام خوارزميات تشفير قوية باتجاه واحد مثل **bcrypt** لمنع قراءة كلمات المرور حتى في حال تسرب قاعدة البيانات.\n* **تأمين الاتصال بالكامل:** فرض شهادات الأمان SSL/TLS واستخدام بروتوكول HTTPS لتشفير البيانات المنتقلة بين المتصفح والخادم.\n* **الحماية من الثغرات الشائعة:** بناء جدران حماية برمجية ضد هجمات حقن النصوص (XSS) وتزييف الطلبات عبر المواقع (CSRF).\n* **النتيجة:** نظام برمجية آمن وموثوق يحمي خصوصية المستخدمين وبياناتهم بأقصى كفاءة."
+    },
+    {
+      "title": "بوابات الدفع الإلكتروني وتسهيل تجربة الشراء (Frictionless Payment Integration)",
+      "slug": "frictionless-payment-integration",
+      "summary": "دمج بوابات الدفع الشهيرة مثل Stripe و PayPal مع معالجة المعاملات الفورية بدون إعادة تحميل لتوفير تجربة سداد آمنة.",
+      "cover_image": "/src/assets/load_optimization.png",
+      "tags": ["Stripe", "Fintech", "UX"],
+      "published_at": "2026-07-09T18:00:00Z",
+      "content": "### المشكلة للمستخدم\nصفحات الدفع المعقدة التي تتطلب إعادة تحميل كامل للصفحة، أو التي تفشل في إظهار رسائل خطأ واضحة عند رفض البطاقة، تثير ريبة المستخدم وتدفعه للتراجع خوفاً من سحب أمواله مرتين.\n\n### الحل التقني والمعماري\nقمنا بتبسيط وتأمين تجربة الدفع الإلكتروني بالكامل:\n* **معالجة المعاملات الفورية:** دمج بوابات دفع متطورة مثل **Stripe Elements** لمعالجة الدفع بأمان تام في نفس الصفحة وبشكل فوري دون الحاجة لإعادة التحميل.\n* **إدارة واضحة ومباشرة للأخطاء:** إظهار تنبيهات واضحة فورا للمستخدم (مثل: \"رقم البطاقة غير صحيح\" أو \"الرصيد غير كافٍ\") لمساعدته على حل المشكلة فورياً.\n* **النتيجة:** تجربة شراء موثوقة وسريعة تزيد من ثقة العملاء وترفع معدلات التحويل (Conversion Rate)."
+    },
+    {
+      "title": "النفاذ الرقمي ودعم ذوي الاحتياجات الخاصة (Web Accessibility - A11y)",
+      "slug": "web-accessibility-a11y",
+      "summary": "تطبيق معايير النفاذ الرقمي العالمية W3C A11y لتسهيل تصفح التطبيق لذوي الاحتياجات الخاصة وضعاف البصر.",
+      "cover_image": "/src/assets/mobile_responsiveness.png",
+      "tags": ["Accessibility", "A11y", "HTML"],
+      "published_at": "2026-07-10T19:00:00Z",
+      "content": "### المشكلة للمستخدم\nالمستخدمون الذين يعانون من ضعف البصر أو يعتمدون بالكامل على قارئات الشاشة (Screen Readers) يواجهون صعوبة بالغة في التنقل بالمواقع التي لا تراعي تباين الألوان أو تفتقر للأزرار التوضيحية.\n\n### الحل التقني والمعماري\nنحرص على جعل الويب مكاناً متاحاً للجميع من خلال تطبيق المعايير التالية:\n* **كود HTML دلالي (Semantic HTML):** استخدام العناصر الهيكلية الصحيحة (مثل `<header>`, `<main>`, `<button>`) ليفهمها قارئ الشاشة بشكل طبيعي.\n* **سمات ARIA المخصصة:** إضافة نصوص بديلة وتفاصيل توضيحية لجميع الأزرار والأيقونات التفاعلية غير النصية.\n* **تباين الألوان الممتاز (Contrast Ratio):** تنسيق درجات الألوان لضمان تباين مريح للعين يسهل القراءة لجميع فئات المستخدمين.\n* **النتيجة:** موقع ويب شامل ومتاح بنسبة 100% للجميع، ويوفر تجربة تصفح متكافئة ومريحة."
+    }
+  ]
+}

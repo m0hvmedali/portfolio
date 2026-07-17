@@ -1,0 +1,127 @@
+/* Retro Modern CLI Terminal Styles */
+.terminal-window {
+  background-color: hsl(var(--terminal-bg));
+  border: 1px solid hsl(var(--border-primary));
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  max-height: 350px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px -20px rgba(0, 0, 0, 0.7);
+  font-family: var(--font-mono);
+}
+
+.terminal-header {
+  height: 32px;
+  background-color: hsl(var(--bg-secondary));
+  border-bottom: 1px solid hsl(var(--border-primary));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.85rem;
+  user-select: none;
+}
+
+.terminal-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.t-btn {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.t-close { background-color: #ef4444; }
+.t-minimize { background-color: #f59e0b; }
+.t-maximize { background-color: #10b981; }
+
+.terminal-title {
+  font-size: 0.75rem;
+  color: hsl(var(--text-muted));
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.terminal-body {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: hsl(var(--text-primary));
+}
+
+.terminal-output {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.t-line {
+  display: flex;
+  flex-direction: column;
+}
+
+.t-command-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: hsl(var(--accent-violet));
+  font-weight: 600;
+}
+
+.t-prompt {
+  color: hsl(var(--accent-cyan));
+}
+
+.t-input-field {
+  flex: 1;
+  font-family: inherit;
+  font-size: inherit;
+  color: hsl(var(--text-primary));
+  caret-color: transparent; /* custom blinking cursor */
+}
+
+/* Custom cursor blink */
+.t-input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1;
+}
+
+.t-cursor {
+  display: inline-block;
+  width: 7px;
+  height: 15px;
+  background-color: hsl(var(--accent-cyan));
+  margin-left: 2px;
+  animation: cursorBlink 1s infinite steps(2);
+}
+
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Text coloring variants */
+.t-green { color: hsl(var(--accent-green)); }
+.t-cyan { color: hsl(var(--accent-cyan)); }
+.t-violet { color: hsl(var(--accent-violet)); }
+.t-yellow { color: hsl(var(--accent-yellow)); }
+.t-muted { color: hsl(var(--text-muted)); }
+
+.t-ascii {
+  font-size: 0.65rem;
+  line-height: 1.1;
+  color: hsl(var(--accent-cyan));
+  margin-bottom: 0.5rem;
+}

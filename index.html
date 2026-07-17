@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Baseline (Dynamically updated by seo.js) -->
+  <title>Developer Portfolio | Personal OS Dashboard</title>
+  <meta name="description" content="A dynamic software engineer portfolio and personal operating system dashboard connected to a Supabase CMS.">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Preconnect and Fonts Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/dashboard.css">
+  <link rel="stylesheet" href="/src/styles/terminal.css">
+  <!-- Favicon (profile avatar as site logo) -->
+  <link rel="icon" type="image/png" href="/src/assets/profile_avatar.png">
+</head>
+<body>
+
+  <!-- Top status bar mounted dynamically by components/header.js -->
+  <div id="os-header-mount"></div>
+
+  <!-- Single-Page Scrolling Wrapper -->
+  <div class="scroll-container">
+    
+    <!-- Hero Header Panel (Avatar, Bio & Terminal) -->
+    <header class="profile-hero container" id="hero-mount"></header>
+
+    <!-- Sticky Nav Bar -->
+    <nav class="sticky-nav" id="sticky-nav" role="navigation" aria-label="Sections Navigation">
+      <div class="sticky-nav-inner container">
+        <a href="#projects" class="sticky-nav-link active" data-nav="projects">Projects</a>
+        <a href="#skills" class="sticky-nav-link" data-nav="skills">Skills</a>
+        <a href="#experience" class="sticky-nav-link" data-nav="experience">Experience</a>
+        <a href="#education" class="sticky-nav-link" data-nav="education">Credentials</a>
+        <a href="#learnings" class="sticky-nav-link" data-nav="learnings">Learnings</a>
+        <a href="#blog" class="sticky-nav-link" data-nav="blog">Logs</a>
+        <a href="#contact" class="sticky-nav-link" data-nav="contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Main Dynamic Content Sections -->
+    <main role="main">
+      <section id="projects" class="portfolio-section container"></section>
+      <section id="skills" class="portfolio-section container"></section>
+      <section id="experience" class="portfolio-section container"></section>
+      <section id="education" class="portfolio-section container"></section>
+      <section id="learnings" class="portfolio-section container"></section>
+      <section id="blog" class="portfolio-section container"></section>
+      <section id="contact" class="portfolio-section container"></section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer class="portfolio-footer">
+      <div class="container footer-content">
+        <div>
+          <span>&copy; <span id="footer-year">2026</span> <strong id="footer-name">Developer</strong>. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <button id="admin-trigger-btn" class="admin-link-btn" aria-label="Open Admin Dashboard System Control">
+            <i class="fas fa-gears"></i> System Control
+          </button>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
