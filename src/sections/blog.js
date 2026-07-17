@@ -24,7 +24,7 @@ export function renderBlog(container, data) {
       <div class="blog-grid">
         ${posts.map(post => `
           <article class="glow-card blog-card">
-            <img src="${post.cover_image || '/src/assets/project_mockup.png'}" alt="${post.title} cover" class="blog-image" loading="lazy">
+            <img src="${post.cover_image || '/assets/project_mockup.png'}" alt="${post.title} cover" class="blog-image" loading="lazy">
             <div class="blog-content">
               <div class="blog-meta-row">
                 <span>${formatDate(post.published_at)}</span>
@@ -70,7 +70,7 @@ function showArticleModal(post) {
         </button>
       </div>
       <div class="modal-body">
-        <img src="${post.cover_image || '/src/assets/project_mockup.png'}" alt="" class="modal-cover">
+        <img src="${post.cover_image || '/assets/project_mockup.png'}" alt="" class="modal-cover">
         
         <h2 style="font-size: 2rem; margin-bottom: 0.5rem; line-height: 1.2;">${post.title}</h2>
         

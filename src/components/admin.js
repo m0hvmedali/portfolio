@@ -258,7 +258,7 @@ function renderProjectForm(container, onDataChange) {
       year: parseInt(form.querySelector('#proj-year').value) || 2026,
       github_url: form.querySelector('#proj-github').value,
       live_url: form.querySelector('#proj-live').value,
-      cover_image: '/src/assets/project_mockup.png',
+      cover_image: '/assets/project_mockup.png',
       status: 'Completed',
       display_order: 10
     };

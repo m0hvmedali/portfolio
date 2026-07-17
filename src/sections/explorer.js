@@ -105,7 +105,7 @@ function renderProjectCards(projects, targetContainer) {
   targetContainer.innerHTML = projects.map(p => `
     <article class="glow-card project-card">
       <div class="project-image-box">
-        <img src="${p.cover_image || '/src/assets/project_mockup.png'}" alt="${p.title} preview" class="project-image" loading="lazy">
+        <img src="${p.cover_image || '/assets/project_mockup.png'}" alt="${p.title} preview" class="project-image" loading="lazy">
       </div>
       <div class="project-card-body">
         <div>

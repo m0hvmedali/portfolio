@@ -11,7 +11,7 @@ export function renderHeader(container) {
   container.innerHTML = `
     <header class="os-header">
       <div class="os-brand">
-        <img src="/src/assets/profile_avatar.png" alt="Logo" class="brand-avatar" style="width:30px;height:30px;border-radius:50%;object-fit:cover;border:2px solid hsl(var(--accent-cyan));margin-right:0.4rem;" />
+        <img src="/assets/profile_avatar.png" alt="Logo" class="brand-avatar" style="width:30px;height:30px;border-radius:50%;object-fit:cover;border:2px solid hsl(var(--accent-cyan));margin-right:0.4rem;" />
         <span>Personal<span style="color:hsl(var(--accent-cyan));">OS</span></span>
       </div>
       
