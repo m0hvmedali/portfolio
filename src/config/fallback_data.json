@@ -239,6 +239,24 @@
       "credential_id": "",
       "credential_url": "",
       "image_url": "/assets/certificates/nlp.png"
+    },
+    {
+      "title": "Python Data Analysis Course",
+      "issuer": "Educational Board",
+      "issue_date": "2026-07-22",
+      "expires_at": null,
+      "credential_id": "1234567890",
+      "credential_url": "",
+      "image_url": "/assets/certificates/python-data-analysis.png"
+    },
+    {
+      "title": "Advanced Python Programming Course",
+      "issuer": "Henstleu Institute",
+      "issue_date": "2026-07-22",
+      "expires_at": null,
+      "credential_id": "",
+      "credential_url": "",
+      "image_url": "/assets/certificates/advanced-python-programing.png"
     }
   ],
   "learnings": [
