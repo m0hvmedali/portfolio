@@ -58,7 +58,7 @@ async function seedProfile() {
 
   // Try insert first; if conflict on id, upsert won't help without an id.
   // So we do a delete-then-insert pattern for the single profile row.
-  await supabase.from('profile').delete().neq('id', 0); // wipe existing
+  await supabase.from('profile').delete().not('id', 'is', null); // wipe existing
   const { error } = await supabase.from('profile').insert([row]);
   if (error) {
     console.error('  ✗  profile:', error.message);
@@ -79,7 +79,7 @@ async function seedSkills() {
     display_order:       i,
   }));
   // Wipe then insert (no natural conflict key)
-  await supabase.from('skills').delete().neq('id', 0);
+  await supabase.from('skills').delete().not('id', 'is', null);
   const { error } = await supabase.from('skills').insert(rows);
   if (error) console.error('  ✗  skills:', error.message);
   else       console.log(`  ✓  skills: ${rows.length} row(s) inserted.`);
@@ -106,7 +106,7 @@ async function seedProjects() {
     year:              p.year,
     display_order:     i,
   }));
-  await supabase.from('projects').delete().neq('id', 0);
+  await supabase.from('projects').delete().not('id', 'is', null);
   const { error } = await supabase.from('projects').insert(rows);
   if (error) console.error('  ✗  projects:', error.message);
   else       console.log(`  ✓  projects: ${rows.length} row(s) inserted.`);
@@ -130,7 +130,7 @@ async function seedExperience() {
     location:      e.location       ?? null,
     display_order: i,
   }));
-  await supabase.from('experience').delete().neq('id', 0);
+  await supabase.from('experience').delete().not('id', 'is', null);
   const { error } = await supabase.from('experience').insert(rows);
   if (error) console.error('  ✗  experience:', error.message);
   else       console.log(`  ✓  experience: ${rows.length} row(s) inserted.`);
@@ -153,7 +153,7 @@ async function seedEducation() {
     description:    e.description   ?? null,
     display_order:  i,
   }));
-  await supabase.from('education').delete().neq('id', 0);
+  await supabase.from('education').delete().not('id', 'is', null);
   const { error } = await supabase.from('education').insert(rows);
   if (error) console.error('  ✗  education:', error.message);
   else       console.log(`  ✓  education: ${rows.length} row(s) inserted.`);
@@ -175,7 +175,7 @@ async function seedCertifications() {
     image_url:      c.image_url     ?? null,
     display_order:  i,
   }));
-  await supabase.from('certifications').delete().neq('id', 0);
+  await supabase.from('certifications').delete().not('id', 'is', null);
   const { error } = await supabase.from('certifications').insert(rows);
   if (error) console.error('  ✗  certifications:', error.message);
   else       console.log(`  ✓  certifications: ${rows.length} row(s) inserted.`);
@@ -194,7 +194,7 @@ async function seedLearnings() {
     learned_year:  l.learned_year  ?? null,
     display_order: i,
   }));
-  await supabase.from('learnings').delete().neq('id', 0);
+  await supabase.from('learnings').delete().not('id', 'is', null);
   const { error } = await supabase.from('learnings').insert(rows);
   if (error) console.error('  ✗  learnings:', error.message);
   else       console.log(`  ✓  learnings: ${rows.length} row(s) inserted.`);
@@ -215,7 +215,7 @@ async function seedBlog() {
     tags:         b.tags          ?? [],
     published_at: b.published_at  ?? new Date().toISOString(),
   }));
-  await supabase.from('blog').delete().neq('id', 0);
+  await supabase.from('blog').delete().not('id', 'is', null);
   const { error } = await supabase.from('blog').insert(rows);
   if (error) console.error('  ✗  blog:', error.message);
   else       console.log(`  ✓  blog: ${rows.length} row(s) inserted.`);
