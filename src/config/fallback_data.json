@@ -115,7 +115,6 @@
       "slug": "math-hub-ai-student-platform",
       "short_description": "A full-featured study companion platform blending AI analysis, gamification, focus timers, and a radar-search engine — built as a calm, structured psychological companion.",
       "full_description": "Math Hub is a comprehensive student productivity web application built to transform the learning experience. The platform integrates an AI companion that provides daily performance analysis and personalized study plans. Students can organize subjects (Math, Physics, Chemistry, Languages), track their progress through an interactive Knowledge Universe map where subjects become planets and lessons become moons, and follow a gamified Odyssey journey that frames studying as a voyage toward independence.\n\nThe focus lab features an advanced Pomodoro system (50‑min work / 10‑min break) with dynamic color themes, ambient soundscapes (rain, café, Lo‑Fi) and a Neural Rank leveling system. A Radar Search engine simultaneously queries the in‑app database, the web, Google Drive, and YouTube. Additional features include Spotify integration for automatic playlist switching between study and break modes, daily Hadith/wisdom reminders, and a compassionate AI Companion that offers instant support.\n\nThe platform is 100% free, cloud‑synced via Google, and features a modern dynamic color system.",
-      
       "gallery": [
         "/assets/mathhub_gallery_1.png",
         "/assets/mathhub_gallery_2.png"
@@ -124,7 +123,14 @@
       "featured": false,
       "github_url": "https://github.com/m0hvmedali/math-hub",
       "live_url": "https://math-hub-eta.vercel.app/",
-      "technologies": ["JavaScript", "HTML5", "CSS3", "AI Integration", "Spotify API", "Vercel"],
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "AI Integration",
+        "Spotify API",
+        "Vercel"
+      ],
       "year": 2026
     },
     {
@@ -140,7 +146,13 @@
       "featured": false,
       "github_url": "https://github.com/m0hvmedali/mental-journey-tracker",
       "live_url": "https://mental-journey-tracker.vercel.app/",
-      "technologies": ["JavaScript", "HTML5", "CSS3", "CBT/DBT", "Vercel"],
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "CBT/DBT",
+        "Vercel"
+      ],
       "year": 2026
     }
   ],
@@ -218,6 +230,15 @@
       "credential_id": "",
       "credential_url": "",
       "image_url": "/assets/certificates/mysql_fundamentals.png"
+    },
+    {
+      "title": "Neuro-Linguistic Programming (NLP)",
+      "issuer": "Neuro-Linguistic Programming Institute",
+      "issue_date": "2026-07-22",
+      "expires_at": null,
+      "credential_id": "",
+      "credential_url": "",
+      "image_url": "/assets/certificates/nlp.png"
     }
   ],
   "learnings": [
@@ -252,7 +273,11 @@
       "slug": "optimizing-initial-load-time-performance",
       "summary": "كيفية تسريع تحميل تطبيقات الويب التفاعلية لتقليل معدل الارتداد (Bounce Rate) ليكون أقل من ثانية واحدة باستخدام أحدث تقنيات تحسين الأداء.",
       "cover_image": "/assets/load_optimization.png",
-      "tags": ["Optimization", "Frontend", "Performance"],
+      "tags": [
+        "Optimization",
+        "Frontend",
+        "Performance"
+      ],
       "published_at": "2026-07-01T10:00:00Z",
       "content": "### المشكلة للمستخدم\nعندما يفتح المستخدم الموقع وينتظر لأكثر من 3 ثوانٍ أمام شاشة بيضاء فارغة، يزداد احتمال مغادرته للموقع فوراً (ارتداد المستخدمين). هذا التأخر يؤثر سلباً على تجربة المستخدم وعلى أرشفة محركات البحث (SEO).\n\n### منهجيتنا في الحل وهندسة الأداء\nللتغلب على هذه المشكلة، قمنا بتطبيق استراتيجيات صارمة لتحسين الأداء تشمل:\n* **تقسيم الكود (Code Splitting):** تفكيك حزم جافا سكريبت الكبيرة إلى أجزاء أصغر وتحميلها بشكل ديناميكي حسب حاجة الصفحة فقط، مما يقلل من حجم الملفات المحملة في البداية.\n* **ضغط وتقليل الحجم (Minification & Gzip):** تصغير ملفات HTML و CSS و JavaScript وإزالة الفراغات والتعليقات غير الضرورية.\n* **تحسين الصور والوسائط:** تحويل جميع الصور إلى صيغ حديثة وعالية الكفاءة مثل **WebP** و **AVIF** مع ضغطها دون فقدان الجودة، وتفعيل التحميل الكسول (Lazy Loading).\n* **النتيجة:** انخفاض زمن التحميل الفعلي (FCP) ليكون أقل من ثانية واحدة، مما أدى إلى تجربة تصفح فائقة السلاسة."
     },
@@ -261,7 +286,11 @@
       "slug": "state-management-and-offline-resilience",
       "summary": "بناء نظام حماية لحفظ مسودات المستخدم ومدخلاته بشكل لحظي وتوفير دعم العمل دون اتصال (Offline Support) لمنع فقدان البيانات.",
       "cover_image": "/assets/state_resilience.png",
-      "tags": ["State Management", "UX", "Offline Support"],
+      "tags": [
+        "State Management",
+        "UX",
+        "Offline Support"
+      ],
       "published_at": "2026-07-02T11:00:00Z",
       "content": "### المشكلة للمستخدم\nتخيل أن يقوم المستخدم بملء نموذج طويل أو إضافة منتجات إلى عربة التسوق، ثم تنقطع الشبكة فجأة أو يضغط على زر التحديث (Refresh) بالخطأ، ليفقد كل بياناته ويبدأ من جديد. هذا يسبب إحباطاً شديداً للمستخدم.\n\n### الحل التقني والمعماري\nقمنا بحل هذه المشكلة عبر تطبيق نظام استمرارية البيانات المتقدم:\n* **التخزين المحلي اللحظي:** استخدام **Local Storage** و **Session Storage** لحفظ مسودات المستخدم وتحديثها بشكل تلقائي مع كل نقرة أو إدخال.\n* **تكامل Service Workers:** تفعيل تقنيات التطبيقات التقدمية (PWA) لتقديم دعم كامل للعمل في وضع عدم الاتصال (Offline Support).\n* **مزامنة الخلفية (Background Sync):** عند عودة اتصال الإنترنت، يقوم التطبيق بمزامنة البيانات المخزنة محلياً مع الخادم بشكل تلقائي وصامت.\n* **النتيجة:** حماية كاملة لمدخلات المستخدم، وتصفح آمن ومستمر بغض النظر عن استقرار الشبكة."
     },
@@ -270,7 +299,11 @@
       "slug": "responsive-mobile-first-architecture",
       "summary": "تطبيق منهجية تصميم متوافقة مع جميع أحجام الشاشات لضمان واجهات مستخدم مريحة وجذابة دون الحاجة لتقريب الشاشة يدوياً.",
       "cover_image": "/assets/mobile_responsiveness.png",
-      "tags": ["CSS", "Frontend", "Responsive Design"],
+      "tags": [
+        "CSS",
+        "Frontend",
+        "Responsive Design"
+      ],
       "published_at": "2026-07-03T12:00:00Z",
       "content": "### المشكلة للمستخدم\nعند تصفح موقع غير متجاوب من الهاتف، تظهر الأزرار متداخلة، والنصوص بالغة الصغر، ويضطر المستخدم للتمرير يميناً ويساراً أو تكبير الشاشة يدوياً لقراءة المحتوى، مما يفسد تجربة التصفح تماماً.\n\n### منهجيتنا في التصميم والتطوير\nنلتزم بمعايير التصميم الحديثة لضمان توافقية مطلقة:\n* **منهجية الموبايل أولاً (Mobile-First Approach):** نبدأ بتصميم وتطوير الواجهات للشاشات الصغيرة ثم التدرج للأعلى، مما يضمن خفة الواجهة الأساسية وسلاستها.\n* **أنظمة التخطيط المرنة (CSS Grid & Flexbox):** بناء الهياكل البرمجية بشكل مرن يعيد ترتيب العناصر تلقائياً لتناسب أي شاشة (هاتف، جهاز لوحي، شاشة حاسوب ضخمة).\n* **تطبيق Tailwind CSS المتطور:** استخدام نقاط التوقف (Breakpoints) الذكية للتحكم بالخطوط والمساحات بشكل ديناميكي.\n* **النتيجة:** واجهات مستخدم أنيقة وجذابة تتكيف بشكل فني وتلقائي مع أي جهاز."
     },
@@ -279,7 +312,11 @@
       "slug": "asynchronous-ui-freezing-prevention",
       "summary": "استخدام الأكواد غير المتزامنة ومؤشرات التحميل الديناميكية للحفاظ على استجابة الواجهة بنسبة 100% أثناء العمليات الثقيلة.",
       "cover_image": "/assets/async_processing.png",
-      "tags": ["JavaScript", "UX", "Performance"],
+      "tags": [
+        "JavaScript",
+        "UX",
+        "Performance"
+      ],
       "published_at": "2026-07-04T13:00:00Z",
       "content": "### المشكلة للمستخدم\nعند النقر على زر \"رفع ملف\" أو \"إصدار تقرير\"، يتجمد الموقع بالكامل ولا يستجيب لأي نقرة أخرى، مما يجعل المستخدم يظن أن التطبيق قد تعطل تماماً، فيقوم بالضغط تكراراً أو يغلق الصفحة.\n\n### الحل التقني والمعماري\nللحفاظ على سلاسة الواجهة وتجاوبها المطلق:\n* **البرمجة غير المتزامنة (Asynchronous Programming):** تنفيذ جميع المهام الثقيلة وجلب البيانات في الخلفية باستخدام `async/await` و Promises دون إعاقة الخيط الرئيسي للمتصفح (Main Thread).\n* **مؤشرات التحميل والهياكل العظمية (Skeleton Screens):** عرض شاشات هيكلية ذكية ومؤشرات تحميل تفاعلية تمنح المستخدم تغذية راجعة فورية بأن التطبيق يعمل بنشاط بالخلفية.\n* **النتيجة:** واجهة مستخدم مستقرة وتفاعلية بنسبة 100%، وتجربة معالجة بيانات مريحة ومفهومة."
     },
@@ -288,7 +325,11 @@
       "slug": "secure-authentication-sessions",
       "summary": "بناء نظام مصادقة قوي يجمع بين أمان JWT وسلاسة OAuth لتمكين تسجيل الدخول بضغطة زر مع الحفاظ على سرية البيانات.",
       "cover_image": "/assets/secure_auth.png",
-      "tags": ["Security", "Backend", "Authentication"],
+      "tags": [
+        "Security",
+        "Backend",
+        "Authentication"
+      ],
       "published_at": "2026-07-05T14:00:00Z",
       "content": "### المشكلة للمستخدم\nمطالبة المستخدم بتسجيل الدخول في كل مرة يفتح فيها الموقع، أو فرض كلمات مرور بالغة التعقيد دون شرح الشروط بوضوح، يسبب تجربة تسجيل دخول معقدة ومنفرة للمستخدم.\n\n### الحل التقني والمعماري\nصممنا نظام مصادقة يوازن بدقة بين الأمن وسهولة الاستخدام:\n* **تقنيات JWT و Refresh Tokens:** استخدام الرموز الأمنية لتخزين الجلسات بشكل مشفر، وتحديثها تلقائياً للحفاظ على تسجيل دخول المستخدم لفترات طويلة بأمان تام.\n* **التسجيل بضغطة زر (OAuth 2.0):** دمج تسجيل الدخول السريع عبر حسابات موثوقة مثل Google و GitHub لتقليل الحاجة لحفظ كلمات مرور جديدة.\n* **التحقق الفوري من الشروط (Real-time Validation):** إرشاد المستخدم أثناء كتابة كلمة المرور بالشروط المطلوبة بشكل تفاعلي ومريح.\n* **النتيجة:** حماية أمنية قوية لجلسات المستخدمين مع تجربة دخول خالية من التعقيد."
     },
@@ -297,7 +338,11 @@
       "slug": "high-performance-search-indexing",
       "summary": "تسريع عمليات البحث الفوري وتطبيق خوارزميات البحث التقريبي (Fuzzy Search) مع تقنيات Debouncing لتقليل الضغط على الخادم.",
       "cover_image": "/assets/db_indexing_search.png",
-      "tags": ["Database", "Search", "Optimization"],
+      "tags": [
+        "Database",
+        "Search",
+        "Optimization"
+      ],
       "published_at": "2026-07-06T15:00:00Z",
       "content": "### المشكلة للمستخدم\nعند البحث عن منتج أو مقال، يستغرق محرك البحث وقتاً طويلاً جداً لعرض النتائج، أو يفشل في فهم الأخطاء الإملائية البسيطة التي يقع فيها المستخدم، مما يجعله يشعر بأن البحث بلا فائدة.\n\n### الحل التقني والمعماري\nقمنا ببناء محرك بحث فوري ذكي وعلى الأداء:\n* **فهرسة قواعد البيانات (Database Indexing):** تسريع استعلامات قواعد البيانات من خلال إنشاء فهارس مخصصة للحقول الأكثر بحثاً، مما يقلل وقت الاستجابة من مئات الملي ثانية إلى أجزاء بسيطة.\n* **البحث الفازي (Fuzzy Search):** استخدام خوارزميات ذكية تفهم نوايا المستخدم وتعرض النتائج الصحيحة حتى مع وجود أخطاء إملائية.\n* **تفعيل تقنية الـ Debouncing:** تأخير إرسال طلب البحث إلى الخادم لبضع ملي ثوانٍ حتى يتوقف المستخدم عن الكتابة، مما يمنع إرهاق السيرفر بطلبات متكررة مع كل حرف.\n* **النتيجة:** بحث فوري ذكي يستجيب في أجزاء من الثانية ويقدم نتائج دقيقة ومخصصة."
     },
@@ -306,7 +351,11 @@
       "slug": "graceful-error-handling-routing",
       "summary": "تصميم نظام معالجة الأخطاء يمنع انهيار الصفحات الصامت، ويقدم تنبيهات Toast ذكية وواجهات خطأ 404 تفاعلية ترشد المستخدم.",
       "cover_image": "/assets/state_resilience.png",
-      "tags": ["UX", "Routing", "Error Handling"],
+      "tags": [
+        "UX",
+        "Routing",
+        "Error Handling"
+      ],
       "published_at": "2026-07-07T16:00:00Z",
       "content": "### المشكلة للمستخدم\nعند حدوث خطأ ما في الخلفية، يتوقف الموقع صامتاً دون أي رد فعل للمستخدم، أو ينقله إلى صفحة 404 بيضاء وجافة ومحبطة، فيشعر المستخدم بأن الموقع قد تلف تماماً.\n\n### الحل التقني والمعماري\nصممنا هيكلية شاملة لإدارة وتتبع الأخطاء بشكل تفاعلي:\n* **صفحات خطأ مخصصة وتفاعلية (Custom 404 & 500):** تصميم واجهات أخطاء جذابة توضح للمستخدم المشكلة بلغة بسيطة، وتوفر أزراراً سريعة للعودة للصفحة الرئيسية أو الاتصال بالدعم.\n* **نظام إشعارات Toast فوري:** عرض تنبيهات صغيرة وذكية تخبر المستخدم بطبيعة المشكلة عند فشل الإجراءات (مثل: \"عذراً، يرجى التحقق من اتصالك بالإنترنت\").\n* **النتيجة:** طمأنة المستخدم وإرشاده في كل خطوة، ومنع حدوث أخطاء غير مفهومة أو صامتة."
     },
@@ -315,7 +364,11 @@
       "slug": "security-data-encryption",
       "summary": "تأمين معمارية التطبيق بتشفير bcrypt القوي، وتفعيل بروتوكولات HTTPS، وحماية واجهات البرمجة من ثغرات XSS و CSRF.",
       "cover_image": "/assets/secure_auth.png",
-      "tags": ["Security", "Backend", "Encryption"],
+      "tags": [
+        "Security",
+        "Backend",
+        "Encryption"
+      ],
       "published_at": "2026-07-08T17:00:00Z",
       "content": "### المشكلة للمستخدم\nأخطر ما يواجه المستخدم هو تسريب بياناته الشخصية أو سرقة حسابه نتيجة لضعف الحماية وتخزين كلمات المرور كنصوص واضحة في قواعد البيانات.\n\n### الحل التقني والمعماري\nنطبق معايير أمنية صارمة ومحدثة لحماية كافة البيانات:\n* **تشفير كلمات المرور:** استخدام خوارزميات تشفير قوية باتجاه واحد مثل **bcrypt** لمنع قراءة كلمات المرور حتى في حال تسرب قاعدة البيانات.\n* **تأمين الاتصال بالكامل:** فرض شهادات الأمان SSL/TLS واستخدام بروتوكول HTTPS لتشفير البيانات المنتقلة بين المتصفح والخادم.\n* **الحماية من الثغرات الشائعة:** بناء جدران حماية برمجية ضد هجمات حقن النصوص (XSS) وتزييف الطلبات عبر المواقع (CSRF).\n* **النتيجة:** نظام برمجية آمن وموثوق يحمي خصوصية المستخدمين وبياناتهم بأقصى كفاءة."
     },
@@ -324,7 +377,11 @@
       "slug": "frictionless-payment-integration",
       "summary": "دمج بوابات الدفع الشهيرة مثل Stripe و PayPal مع معالجة المعاملات الفورية بدون إعادة تحميل لتوفير تجربة سداد آمنة.",
       "cover_image": "/assets/load_optimization.png",
-      "tags": ["Stripe", "Fintech", "UX"],
+      "tags": [
+        "Stripe",
+        "Fintech",
+        "UX"
+      ],
       "published_at": "2026-07-09T18:00:00Z",
       "content": "### المشكلة للمستخدم\nصفحات الدفع المعقدة التي تتطلب إعادة تحميل كامل للصفحة، أو التي تفشل في إظهار رسائل خطأ واضحة عند رفض البطاقة، تثير ريبة المستخدم وتدفعه للتراجع خوفاً من سحب أمواله مرتين.\n\n### الحل التقني والمعماري\nقمنا بتبسيط وتأمين تجربة الدفع الإلكتروني بالكامل:\n* **معالجة المعاملات الفورية:** دمج بوابات دفع متطورة مثل **Stripe Elements** لمعالجة الدفع بأمان تام في نفس الصفحة وبشكل فوري دون الحاجة لإعادة التحميل.\n* **إدارة واضحة ومباشرة للأخطاء:** إظهار تنبيهات واضحة فورا للمستخدم (مثل: \"رقم البطاقة غير صحيح\" أو \"الرصيد غير كافٍ\") لمساعدته على حل المشكلة فورياً.\n* **النتيجة:** تجربة شراء موثوقة وسريعة تزيد من ثقة العملاء وترفع معدلات التحويل (Conversion Rate)."
     },
@@ -333,7 +390,11 @@
       "slug": "web-accessibility-a11y",
       "summary": "تطبيق معايير النفاذ الرقمي العالمية W3C A11y لتسهيل تصفح التطبيق لذوي الاحتياجات الخاصة وضعاف البصر.",
       "cover_image": "/assets/mobile_responsiveness.png",
-      "tags": ["Accessibility", "A11y", "HTML"],
+      "tags": [
+        "Accessibility",
+        "A11y",
+        "HTML"
+      ],
       "published_at": "2026-07-10T19:00:00Z",
       "content": "### المشكلة للمستخدم\nالمستخدمون الذين يعانون من ضعف البصر أو يعتمدون بالكامل على قارئات الشاشة (Screen Readers) يواجهون صعوبة بالغة في التنقل بالمواقع التي لا تراعي تباين الألوان أو تفتقر للأزرار التوضيحية.\n\n### الحل التقني والمعماري\nنحرص على جعل الويب مكاناً متاحاً للجميع من خلال تطبيق المعايير التالية:\n* **كود HTML دلالي (Semantic HTML):** استخدام العناصر الهيكلية الصحيحة (مثل `<header>`, `<main>`, `<button>`) ليفهمها قارئ الشاشة بشكل طبيعي.\n* **سمات ARIA المخصصة:** إضافة نصوص بديلة وتفاصيل توضيحية لجميع الأزرار والأيقونات التفاعلية غير النصية.\n* **تباين الألوان الممتاز (Contrast Ratio):** تنسيق درجات الألوان لضمان تباين مريح للعين يسهل القراءة لجميع فئات المستخدمين.\n* **النتيجة:** موقع ويب شامل ومتاح بنسبة 100% للجميع، ويوفر تجربة تصفح متكافئة ومريحة."
     }
