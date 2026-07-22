@@ -81,8 +81,8 @@ function renderLoginView(container, onStateChange, onDataChange) {
       </p>
       
       <div class="form-group">
-        <label for="login-email">Email Address</label>
-        <input type="email" id="login-email" class="form-control" placeholder="developer@email.com" required>
+        <label for="login-email">Username</label>
+        <input type="text" id="login-email" class="form-control" placeholder="username" required>
       </div>
       <div class="form-group">
         <label for="login-password">System Password</label>
@@ -97,9 +97,7 @@ function renderLoginView(container, onStateChange, onDataChange) {
       
       <div style="margin-top: 1.5rem; padding: 0.75rem; background: hsl(var(--bg-tertiary)); border-radius: var(--radius-sm); border: 1px dashed hsl(var(--border-primary)); font-size: 0.75rem; color: hsl(var(--text-secondary));">
         <strong>Credentials Mode:</strong><br>
-        ${isOnline 
-          ? 'Connect using your Supabase project\'s auth email and password.' 
-          : 'Offline fallback mode active. Authenticate with: <br><code style="font-family: monospace; color: hsl(var(--accent-cyan));">admin@dev.io</code> and password <code style="font-family: monospace; color: hsl(var(--accent-cyan));">admin</code>.'}
+        Authenticate with: <br><code style="font-family: monospace; color: hsl(var(--accent-cyan));">8128</code> and password <code style="font-family: monospace; color: hsl(var(--accent-cyan));">8128</code>.
       </div>
     </form>
   `;
@@ -116,7 +114,11 @@ function renderLoginView(container, onStateChange, onDataChange) {
     statusEl.className = 'form-status';
     statusEl.style.display = 'block';
 
-    if (isOnline && supabase) {
+    if (email === '8128' && password === '8128') {
+      sessionStorage.setItem('admin_authenticated', 'true');
+      isLoggedIn = true;
+      onStateChange();
+    } else if (isOnline && supabase) {
       try {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
@@ -129,14 +131,8 @@ function renderLoginView(container, onStateChange, onDataChange) {
         statusEl.classList.add('error');
       }
     } else {
-      if (email === 'admin@dev.io' && password === 'admin') {
-        sessionStorage.setItem('admin_authenticated', 'true');
-        isLoggedIn = true;
-        onStateChange();
-      } else {
-        statusEl.textContent = 'Invalid credentials for local offline session.';
-        statusEl.classList.add('error');
-      }
+      statusEl.textContent = 'Invalid credentials.';
+      statusEl.classList.add('error');
     }
   });
 }
